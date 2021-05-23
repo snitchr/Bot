@@ -15,7 +15,6 @@ now = int(round(time.time() * 1000))
 then = now - (1000 * 60 * 60 * 24 * days)
 allDay = (60 * 24 * days)
 
-#orschloch
 
 async def log_ticker():
   ticker = await bfx.rest.get_public_ticker('tBTCUSD')
@@ -27,7 +26,6 @@ async def log_historical_candles():
   print ("Candles:")
   [ print (c) for c in candles ]
 
-#
 async def run():
   await log_ticker()
   await log_historical_candles()

@@ -15,6 +15,7 @@ now = int(round(time.time() * 1000))
 then = now - (1000 * 60 * 60 * 24 * days)
 allDay = (60 * 24 * days)
 
+#test
 
 async def log_ticker():
   ticker = await bfx.rest.get_public_ticker('tBTCUSD')

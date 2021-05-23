@@ -1,0 +1,6 @@
+__pycache__
+*.pyc
+.vscode
+*.log
+dist
+bitfinex_api_py.egg-info

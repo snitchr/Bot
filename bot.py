@@ -9,7 +9,7 @@ from bfxapi import Client
 bfx = Client(
   logLevel='DEBUG',
 )
-#test
+
 days = 1
 now = int(round(time.time() * 1000))
 then = now - (1000 * 60 * 60 * 24 * days)

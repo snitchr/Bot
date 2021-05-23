@@ -27,6 +27,7 @@ async def log_historical_candles():
   print ("Candles:")
   [ print (c) for c in candles ]
 
+#
 async def run():
   await log_ticker()
   await log_historical_candles()
